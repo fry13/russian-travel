@@ -3,36 +3,6 @@
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 
-/*.cover {
-  position: relative;
-  max-width: 1184px;
-  height: 740px;
-  margin: 0 auto;
-}
-
-.cover:hover .cover__overlay {
-  transition: ease-in .5s;
-  opacity: .8;
-}
-
-@media screen and (min-width: 881px) and (max-width: 1184px) {
-  .cover {
-    max-width: 100%;
-    height: 640px;
-  }
-}
-
-@media screen and (max-width: 880px) {
-  .cover {
-    height: 480px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .cover {
-    height: 200px;
-  }
-} */
 .cover {
   position: relative;
   max-width: 1184px;
@@ -43,6 +13,11 @@
   transition: ease-in .5s;
   opacity: .8;
 }
+/* Полностью поддерживаю, но в макете в фигме недвусмысленно 
+показано курсором, что при наведении на блок срабатывает ховер.
+Если я что-то не так понимаю, то поправьте меня пожалуйста. 
+А про transition  в спокойном состоянии - ваще круто!*/
+
 
 @media screen and (min-width: 881px) and (max-width: 1184px) {
   .cover {

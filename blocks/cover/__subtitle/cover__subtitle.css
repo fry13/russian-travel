@@ -1,8 +1,9 @@
 .cover__subtitle {
-  position: absolute;
-  top: 429px;
+  position: relative;
+  top: 307px;
   left: 50%;
-  margin: 0 0 0 -180px;
+  transform: translateX(-50%);  
+  margin: 0;
   font-size: 18px;
   line-height: 1.22;
   text-align: center;
@@ -11,23 +12,27 @@
   z-index: 1;  
 }
 
+/*Ничего лучше, чем изменить абсолют на релейтив я не придумал. 
+Теперь, конечно, нет той проблемы, которую вы показали, и блок 
+начал растягиваться, но это всё равно не похоже на самое 
+элегантное решение*/
+
 @media screen and (max-width: 1024px) {
   .cover__subtitle {  
-    top: 379px;     
+    top: 227px;     
   }
 }
 
 @media screen and (max-width: 860px) {
   .cover__subtitle {    
-    top: 299px;  
+    top: 147px;  
   }
 }
 
 @media screen and (max-width: 610px) {
   .cover__subtitle {        
-    top: 150px;      
+    top: 80px;      
     width: 288px;
-    margin: 0  0 0 -144px;
     font-size: 14px;
     line-height: 1.14;
   }
@@ -35,10 +40,6 @@
 
 @media screen and (max-width: 320px) {
   .cover__subtitle {        
-    top: 119px;      
-    width: 288px;
-    margin: 0  0 0 -144px;
-    font-size: 14px;
-    line-height: 1.14;
+       
   }
 }

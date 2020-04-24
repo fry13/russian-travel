@@ -9,3 +9,10 @@
   transition: ease-in .2s;
   opacity: .8;
 }
+
+@media screen and (max-width: 730px) {
+  .footer__link{   
+    font-size: 24px;
+    line-height: 1;
+  }
+}

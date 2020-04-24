@@ -1,4 +1,6 @@
-@import url(../header/__logo/header__logo.css);
+@import url(./__logo/header__logo.css);
+@import url(./__lang-link-list/header_lang-link-list.css);
+@import url(./__lang-link-container/header__lang-link-container.css);
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__lang-link/_active/header__lang-link_active.css);
 
@@ -9,19 +11,19 @@
   justify-content: space-between;
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
   .header {    
     margin: 28px 48px 0 48px;
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen (max-width: 1023px) {
   .header {   
     margin: 28px 24px 0 24px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header {    
     margin: 16px 16px 0 16px;
   }
