@@ -12,6 +12,15 @@
   position: relative;
 }
 
+.cover__background:hover .cover__overlay {
+  transition: ease-in .5s;
+  opacity: .8;
+}
+
+/*я сначала подумал, что вы говорите про добавление новых ссылок
+на уже имеющийся блок с фоном, а не создание нового такого блока, 
+извините */
+
 @media screen and (max-width: 1023px) {
   .cover__background {    
     margin-top: 88px;    
